@@ -9,12 +9,17 @@
  --accent-color: #18A0FB;
  --primary-white-color: #FFFFFF;
 }
-.body {
+body {
     background-color: #FFFFFF;
     color:var(--primary-text-color);
+    font-family: Montserrat, sans-serif;
+    letter-spacing: -0.015em;
 }
 .logo {
-    color:var(--title-text-color)
+    color:var(--title-text-color);
+    font-family: Comfortaa, cursive;
+    font-size: 28px;
+    line-height: 1.14;
 }
 .logo:hover {
     color:var(--accent-color)
@@ -24,7 +29,11 @@
 }
 /* site nav */
 .site-nav .link {
-    color:var(--accent-color)
+    color:var(--accent-color);
+    font-family:inherit;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.2;
 }
 .site-nav .link:hover, 
 .site-nav .link:focus {
